@@ -6,7 +6,7 @@
 // @include        http://*.2chan.net/*/res/*
 // @include        https://*.2chan.net/*/res/*
 // @require        http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js
-// @version        1.0.1
+// @version        1.0.2
 // @grant          none
 // @license        MIT
 // ==/UserScript==
@@ -19,7 +19,6 @@ this.$ = this.jQuery = jQuery.noConflict(true);
 	var enterKey = "13";		//Enterキーのキーコード
 	var isWindowActive = true;	// タブのアクティブ状態
 	var isFormForcus = false;	// フォームのフォーカス状態
-//	var isFormForcus = true;	// フォームのフォーカス状態
 
 	init();
 
@@ -66,14 +65,9 @@ this.$ = this.jQuery = jQuery.noConflict(true);
 	 * フォームの［返信する］ボタンをクリック
 	 */
 	function clickSubmitButton() {
-		alert("返信しました");
-		return;
 		var submitButton = $("#ftbl input[value='返信する']");	//フォームの［返信する］ボタン取得
 		if (submitButton.length) {
 			submitButton.trigger("click");
-//			var e = document.createEvent("MouseEvents");
-//			e.initEvent("click", false, true);
-//			submitButton.get(0).dispatchEvent(e);
 		}
 	}
 

@@ -23,5 +23,7 @@ Chromeの場合、[Tampermonkey](https://chrome.google.com/webstore/detail/tampe
   - 返信自体は成功しています。現在、原因を調査中です。
 
 ## 更新履歴
+* v1.0.2 2018-02-09
+  - 返信ボタンクリック方法変更
 * v1.0.0 2018-02-08
   - 新規リリース

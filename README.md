@@ -18,6 +18,10 @@ Chromeの場合、[Tampermonkey](https://chrome.google.com/webstore/detail/tampe
 ## 注意事項
 * shift+enterキーを押すと確認無しで送信するので誤操作にご注意ください。
 
+## 既知の問題
+* shift+enterキーで返信直後に他のタブがアクティブになることがある。
+  - 返信自体は成功しています。現在、原因を調査中です。
+
 ## 更新履歴
 * v1.0.0 2018-02-08
   - 新規リリース

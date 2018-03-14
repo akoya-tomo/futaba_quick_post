@@ -12,8 +12,8 @@ Chromeの場合、[Tampermonkey](https://chrome.google.com/webstore/detail/tampe
 * 返信フォーム内（コメント・メール欄・添付ファイルetc）にフォーカスされているときのみshift+enterキーで送信できます。
 
 ## インストール
-[GreasyFork](https://greasyfork.org/ja/scripts/38262-futaba-quick-post/)　
-[GitHub](https://github.com/akoya-tomo/futaba_quick_post/raw/master/futaba_quick_post.user.js)
+GreasyFork　GitHub  
+※不具合により現在公開を一時停止しています。  
 
 ## 注意事項
 * shift+enterキーを押すと確認無しで送信するので誤操作にご注意ください。

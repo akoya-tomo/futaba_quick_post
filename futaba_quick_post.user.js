@@ -6,7 +6,7 @@
 // @include        http://*.2chan.net/*/res/*
 // @include        https://*.2chan.net/*/res/*
 // @require        http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js
-// @version        1.0.2
+// @version        1.0.3
 // @grant          none
 // @license        MIT
 // @noframes

@@ -66,7 +66,7 @@ this.$ = this.jQuery = jQuery.noConflict(true);
 	 * フォームの［返信する］ボタンをクリック
 	 */
 	function clickSubmitButton() {
-		var submitButton = $("#ftbl input[value='返信する']");	//フォームの［返信する］ボタン取得
+		var submitButton = $("#ftbl input[value='返信する'][type='submit']");	//フォームの［返信する］ボタン取得
 		if (submitButton.length) {
 			submitButton.trigger("click");
 		}

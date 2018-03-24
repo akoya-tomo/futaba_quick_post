@@ -19,7 +19,7 @@ this.$ = this.jQuery = jQuery.noConflict(true);
 	 */
 	var enterKey = "13";		//Enterキーのキーコード
 	var isWindowActive = true;	// タブのアクティブ状態
-	var isFormForcus = false;	// フォームのフォーカス状態
+	var isFormFocus = false;	// フォームのフォーカス状態
 
 	init();
 

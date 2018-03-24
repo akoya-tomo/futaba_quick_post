@@ -9,6 +9,7 @@
 // @version        1.0.2
 // @grant          none
 // @license        MIT
+// @noframes
 // ==/UserScript==
 this.$ = this.jQuery = jQuery.noConflict(true);
 
